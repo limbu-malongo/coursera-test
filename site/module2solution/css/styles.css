@@ -42,11 +42,15 @@ div#section1, div#section2, div#section3 {
    float: right;
    top: -10px;
    right: -10px;
-   width: 25%;
+   width: 33%;
    border-bottom: 1px solid black;
    border-left: 1px solid black;
    text-align: center;
    font-size: 1.2em;
+}
+
+.first_paragraph {
+	clear: right;
 }
 
 /********** Large devices only (Desktop Version) **********/
