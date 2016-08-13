@@ -1,0 +1,20 @@
+
+/********** Base styles **********/
+
+
+
+/********** Large devices only (Desktop Version) **********/
+@media (min-width: 992px) {
+
+  
+}
+
+/********** Medium devices only (Tablet View)**********/
+@media (min-width: 768px) and (max-width: 991px) {
+ 
+}
+
+/********** Medium devices only (Mobile View)**********/
+@media (max-width: 767px) {
+ 
+}
