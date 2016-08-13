@@ -1,6 +1,20 @@
 
 /********** Base styles **********/
 
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+h1 {
+  margin-bottom: 30px;
+  text-align: center;
+  padding: 10px;
+}
+
+div#container {
+  width: 100%;
+}
 
 
 /********** Large devices only (Desktop Version) **********/
@@ -14,7 +28,7 @@
  
 }
 
-/********** Medium devices only (Mobile View)**********/
+/********** Small devices only (Mobile View)**********/
 @media (max-width: 767px) {
  
 }
