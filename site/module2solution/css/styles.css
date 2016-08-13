@@ -10,10 +10,12 @@ h1 {
   margin-bottom: 30px;
   text-align: center;
   padding: 10px;
+  font-size: 1.75em;
 }
 
 div#container {
   width: 100%;
+  margin: 0 auto;
 }
 
 		/********** Style the Sections **********/
@@ -28,14 +30,6 @@ div#container {
 	}
 
 
-div#section1, div#section2, div#section3 {
-  width: 32%;
-  border: 1px solid black;
-  float: left;
-  padding: 10px;
-  margin: 0.5%;
-}
-
 		/********** Sections title rop right**********/
 .section_title {
    position:relative;
@@ -46,7 +40,7 @@ div#section1, div#section2, div#section3 {
    border-bottom: 1px solid black;
    border-left: 1px solid black;
    text-align: center;
-   font-size: 1.2em;
+   font-size: 1.25em;
 }
 
 .first_paragraph {
@@ -56,15 +50,46 @@ div#section1, div#section2, div#section3 {
 /********** Large devices only (Desktop Version) **********/
 @media (min-width: 992px) {
 
-  
+div#section1, div#section2, div#section3 {
+  width: 32%;
+  border: 1px solid black;
+  float: left;
+  padding: 10px;
+  margin: 0.5%;
+}
+
 }
 
 /********** Medium devices only (Tablet View)**********/
 @media (min-width: 768px) and (max-width: 991px) {
  
+ div#section1, div#section2{
+  width: 49%;
+  border: 1px solid black;
+  float: left;
+  padding: 10px;
+  margin: 0.5%;
+}
+  
+div#section3{
+  width: 99%;
+  border: 1px solid black;
+  float: left;
+  padding: 10px;
+  margin: 0.5%;
+}
+ 
 }
 
 /********** Small devices only (Mobile View)**********/
 @media (max-width: 767px) {
+ 
+ div#section1, div#section2, div#section3 {
+  width: 99%;
+  border: 1px solid black;
+  float: left;
+  padding: 10px;
+  margin: 0.5%;
+}
  
 }
