@@ -17,18 +17,18 @@ div#container {
 }
 
 		/********** Style the Sections **********/
-#d1 {
+#section1 {
 	  background-color: #D7F5F1;
 	}
-#d2 {
+#section2 {
 	  background-color: #E2D7F5;
 	}
-#d3 {
+#section3 {
 	  background-color: #D7F5F1;
 	}
 
 
-div#d1, div#d2, div#d3 {
+div#section1, div#section2, div#section3 {
   width: 32%;
   border: 1px solid black;
   float: left;
