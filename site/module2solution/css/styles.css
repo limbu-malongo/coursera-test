@@ -16,6 +16,25 @@ div#container {
   width: 100%;
 }
 
+		/********** Style the Sections **********/
+#d1 {
+	  background-color: #D7F5F1;
+	}
+#d2 {
+	  background-color: #E2D7F5;
+	}
+#d3 {
+	  background-color: #D7F5F1;
+	}
+
+
+div#d1, div#d2, div#d3 {
+  width: 32%;
+  border: 1px solid black;
+  float: left;
+  padding: 10px;
+  margin: 0.5%;
+}
 
 /********** Large devices only (Desktop Version) **********/
 @media (min-width: 992px) {
