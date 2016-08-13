@@ -36,6 +36,19 @@ div#section1, div#section2, div#section3 {
   margin: 0.5%;
 }
 
+		/********** Sections title rop right**********/
+.section_title {
+   position:relative;
+   float: right;
+   top: -10px;
+   right: -10px;
+   width: 25%;
+   border-bottom: 1px solid black;
+   border-left: 1px solid black;
+   text-align: center;
+   font-size: 1.2em;
+}
+
 /********** Large devices only (Desktop Version) **********/
 @media (min-width: 992px) {
 
