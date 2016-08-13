@@ -9,13 +9,14 @@
 h1 {
   margin-bottom: 30px;
   text-align: center;
-  padding-left: 10px;
+  padding: 10px;
   font-size: 1.75em;
 }
 
 div#container {
-  width: 100%;
-  margin: 0 auto;
+  width: 99%;
+  margin-left: 0.5%;
+  margin-right: 0.5%;
 }
 
 		/********** Style the Sections **********/
@@ -51,7 +52,7 @@ div#container {
 @media (min-width: 992px) {
 
 div#section1, div#section2, div#section3 {
-  width: 32%;
+  width: 32.3%;
   border: 1px solid black;
   float: left;
   padding: 10px;
