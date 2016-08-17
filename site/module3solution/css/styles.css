@@ -2,8 +2,53 @@
   border-radius: 0 !important;
 }
 
+	/* navbar */
+.navbar  {
+    background-color: #d3d3d3;
+}
+
 .row {
   margin-left: 0px;
   margin-right: 0px;
 }
 
+.col1, .col2, .col3 {
+	background-color: #FFFFFF;
+}
+
+h3 {
+	text-align: center;
+}
+
+section {
+	height: 1000px;
+	background-color: #d3d3d3;
+	padding-top: 10px;
+	padding-right: 20px;
+	padding-bottom: 10;
+	padding-left: 20px;
+	margin-bottom: 50px;
+	
+}
+
+/********** Medium devices only (Tablet View)**********/
+@media (min-width: 768px) {
+	
+
+  
+}
+
+/********** Small devices only (Mobile View)**********/
+@media (max-width: 767px) {
+ 
+.navbar li {
+    background-color: #FFFFFF;
+	border: 2px solid black;
+}
+ 
+ section {
+	 margin-left: 40px;
+	 margin-right: 40px;
+ }
+ 
+}
