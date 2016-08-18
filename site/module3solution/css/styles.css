@@ -35,9 +35,10 @@ section {
 }
 
 .end_section {
-position: absolute;
-bottom: 0px;
-left: 0px;
+	position: absolute;
+	bottom: 0px;
+	left: 0px;
+	padding-left: 20px;
 }
 
 /********** Medium devices only (Tablet View)**********/
