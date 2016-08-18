@@ -2,6 +2,12 @@
   border-radius: 0 !important;
 }
 
+body {
+	font-family: 'Rubik', sans-serif;
+}
+
+.page-header { border-bottom:none; }
+
 	/* navbar */
 .navbar  {
     background-color: #d3d3d3;
