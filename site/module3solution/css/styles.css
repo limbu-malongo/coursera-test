@@ -2,8 +2,8 @@
   border-radius: 0 !important;
 }
 
-body {
-	font-family: 'Rubik', sans-serif;
+* {
+  font-family:cursive;
 }
 
 .page-header { border-bottom:none; }
